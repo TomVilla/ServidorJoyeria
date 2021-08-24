@@ -1,0 +1,53 @@
+<main class="col-md-8 ms-sm-auto col-lg-10 px-md-4">
+    <div class="row mt-2 text-center">
+        <div class="col-sm-3">
+            <div class="input-group mt-3">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Clientes</label>
+              </div>
+              <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Seleccione el cliente</option>
+                
+              </select>
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h2>Facturas antiguas</h2>
+                    </div>
+                </div>
+            </div>
+            <table id="ordenes" class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Fecha de Factura</th>
+                        <th>Código de Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio Unitario</th>
+                        <th>Precio Parcial</th>
+                    </tr>
+                </thead>
+                <tbody id="ordenes_tablas">
+                    
+                </tbody>
+            </table>
+            <div class="clearfix">
+                <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
+                <ul class="pagination">
+                    <li class="page-item disabled"><a href="#">Previous</a></li>
+                    <li class="page-item"><a href="#" class="page-link">1</a></li>
+                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item"><a href="#" class="page-link">5</a></li>
+                    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>  
+</main>
